@@ -1,0 +1,38 @@
+/* 
+ Name: Stephen WIltz
+ File: patientformStyle.css
+ Date Created: 9/19/2024
+ Date Updated: 9/21/2024
+ Purpose: Style sheet for MIS 3371 HW1
+ */
+ body { /* general style of the form*/
+    background-color: rgb(230, 173, 196);
+    font-family: "Times New Roman", Times, serif;
+}
+ h1 { /* Header style*/
+    text-align:center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+}
+.date{ /*Style of my date*/
+    background-color:rgb(230, 173, 196) ;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+
+}
+table.form, tr.form, td.form { /*Format of the table*/
+  width: 70%;
+  opacity: 0.9;
+  font-family: "Times New Roman", Times, serif;
+  background-color:rgba(21, 0, 255, 0);
+  padding: 0px;
+  border-spacing: 00px;
+  color:rgb(222, 243, 245);
+}
+.footer { /* format of the footer */
+    background-color:rgba(212, 0, 255, 0.221); 
+    padding: 20px;
+    text-align: center;
+    border-top: 2px snow rgba(153, 50, 204, 0.242);
+}
